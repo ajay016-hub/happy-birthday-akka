@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>For Shirisha ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+
+<div class="loader" id="loader">
+    <div class="loader-symbol">♡</div>
+    <p>Something special is waiting...</p>
+</div>
+
+
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
+
+<div class="ambient-background"></div>
+
+<div class="stars" id="stars"></div>
+
+
+<!-- =========================================================
+     TOP BRAND
+========================================================= -->
+
+<div class="top-brand">
+    <span>FOR</span>
+    <strong>SHIRISHA</strong>
+</div>
+
+
+<!-- =========================================================
+     CHAPTER INDICATOR
+========================================================= -->
+
+<div class="chapter-indicator">
+
+    <span class="chapter-current" id="chapterCurrent">
+        01
+    </span>
+
+    <span class="chapter-line"></span>
+
+    <span class="chapter-total">
+        09
+    </span>
+
+</div>
+
+
+<!-- =========================================================
+     MAIN APP
+========================================================= -->
+
+<main id="app">
+
+
+<!-- =========================================================
+     PAGE 1 — OPENING
+========================================================= -->
+
+<section class="page page-1 active">
+
+    <div class="opening-orbit orbit-one"></div>
+    <div class="opening-orbit orbit-two"></div>
+
+    <div class="opening-content">
+
+        <div class="mini-label">
+            A LITTLE SOMETHING
+        </div>
+
+        <div class="opening-symbol">
+            ✦
+        </div>
+
+        <h1>
+            I made something
+            <span>just for you.</span>
+        </h1>
+
+        <p class="opening-description">
+            Not something expensive.<br>
+            Not something complicated.<br>
+            Just something made with thought.
+        </p>
+
+        <button
+            class="primary-button"
+            data-next
+        >
+            <span>Open Your Surprise</span>
+            <b>→</b>
+        </button>
+
+    </div>
+
+    <div class="opening-bottom">
+        <span>01 • 10 • 2026</span>
+        <span>✦</span>
+        <span>A birthday story</span>
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 2 — FIREWORKS
+========================================================= -->
+
+<section class="page page-2">
+
+    <canvas id="fireworksCanvas"></canvas>
+
+    <div class="firework-content">
+
+        <div class="mini-label light">
+            AND HERE IT BEGINS
+        </div>
+
+        <div class="birthday-crown">
+            ✦
+        </div>
+
+        <h2>
+            Happy Birthday
+            <span>Akka</span>
+        </h2>
+
+        <div class="gold-divider">
+            <span></span>
+            <b>♡</b>
+            <span></span>
+        </div>
+
+        <p>
+            Today is officially your day.
+        </p>
+
+        <button
+            class="glass-button"
+            data-next
+        >
+            Continue
+            <span>→</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 3 — PORTRAIT
+========================================================= -->
+
+<section class="page page-3">
+
+    <div class="chapter-label">
+        CHAPTER 01
+    </div>
+
+    <div class="portrait-layout">
+
+        <div class="portrait-copy">
+
+            <div class="mini-label">
+                TODAY IS YOURS
+            </div>
+
+            <h2>
+                Another year
+                <br>
+                of <em>you.</em>
+            </h2>
+
+            <p>
+                And honestly, that's something worth
+                celebrating.
+            </p>
+
+            <p class="muted">
+                Another year of memories, laughter,
+                random moments and becoming the person
+                you're meant to be.
+            </p>
+
+            <div class="signature-line">
+                <span>— Ajay</span>
+            </div>
+
+        </div>
+
+
+        <div class="portrait-frame">
+
+            <div class="portrait-border"></div>
+
+            <img
+                src="images/sister-01.jpeg"
+                alt="Shirisha"
+            >
+
+            <div class="portrait-tag">
+                <span>THE BIRTHDAY GIRL</span>
+                <b>✦</b>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="page-button next" data-next>
+        NEXT CHAPTER <span>→</span>
+    </button>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 4 — MEMORIES
+========================================================= -->
+
+<section class="page page-4">
+
+    <div class="chapter-label">
+        CHAPTER 02
+    </div>
+
+    <div class="memory-heading">
+
+        <div class="mini-label">
+            A FEW MOMENTS
+        </div>
+
+        <h2>
+            Some memories
+            <br>
+            deserve to <em>stay.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="memory-gallery">
+
+        <!-- Childhood -->
+        <div class="memory-card card-large">
+
+            <div class="memory-image">
+                <img
+                    src="images/childhood.jpeg"
+                    alt="Childhood memory"
+                >
+            </div>
+
+            <div class="memory-caption">
+                <span>01</span>
+                <p>Where it all began.</p>
+            </div>
+
+        </div>
+
+
+        <!-- Together -->
+        <div class="memory-card card-small">
+
+            <div class="memory-image">
+                <img
+                    src="images/together-01.jpeg"
+                    alt="Ajay and Shirisha"
+                >
+            </div>
+
+            <div class="memory-caption">
+                <span>02</span>
+                <p>Somewhere along the way.</p>
+            </div>
+
+        </div>
+
+
+        <!-- Sister -->
+        <div class="memory-card card-small second">
+
+            <div class="memory-image">
+                <img
+                    src="images/sister-02.jpeg"
+                    alt="Shirisha"
+                >
+            </div>
+
+            <div class="memory-caption">
+                <span>03</span>
+                <p>Still becoming you.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <button class="page-button next" data-next>
+        KEEP GOING <span>→</span>
+    </button>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 5 — LETTER
+========================================================= -->
+
+<section class="page page-5">
+
+    <div class="chapter-label">
+        CHAPTER 03
+    </div>
+
+    <div class="letter-decoration">
+        <span>♡</span>
+    </div>
+
+    <div class="letter-paper">
+
+        <div class="letter-top">
+            <span>01 / 10 / 2026</span>
+            <span>FOR SHIRISHA</span>
+        </div>
+
+        <div class="letter-content">
+
+            <div class="mini-label">
+                A FEW WORDS
+            </div>
+
+            <h2>
+                Dear Siso,
+            </h2>
+
+            <p>
+                I don't always say things properly.
+                Sometimes the words stay in my head
+                instead of making their way out.
+            </p>
+
+            <p>
+                But birthdays are a good excuse to say
+                the things that usually remain unsaid.
+            </p>
+
+            <p>
+                You've been part of so many moments in
+                my life — the funny ones, the annoying
+                ones, the completely random ones and
+                the moments I'll probably remember forever.
+            </p>
+
+            <p>
+                I hope this year takes you closer to the
+                things you dream about. I hope you laugh
+                more, worry less and discover new reasons
+                to be proud of yourself.
+            </p>
+
+            <p>
+                Whatever comes next, I hope you always
+                remember that someone is cheering for you
+                from the sidelines.
+            </p>
+
+            <div class="letter-ending">
+                Happy Birthday. ♡
+            </div>
+
+        </div>
+
+        <div class="letter-signature">
+            <small>with love,</small>
+            <strong>Ajay</strong>
+        </div>
+
+    </div>
+
+
+    <button class="page-button next" data-next>
+        THERE'S MORE <span>→</span>
+    </button>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 6 — THINGS I DON'T SAY
+========================================================= -->
+
+<section class="page page-6">
+
+    <div class="chapter-label">
+        CHAPTER 04
+    </div>
+
+    <div class="things-heading">
+
+        <div class="mini-label">
+            THINGS I DON'T SAY OFTEN
+        </div>
+
+        <h2>
+            But you should
+            <br>
+            <em>know.</em>
+        </h2>
+
+        <p>
+            Tap a card.
+        </p>
+
+    </div>
+
+
+    <div class="things-grid">
+
+        <button
+            class="thing-card"
+            data-message="You matter more than you probably realize. Your presence makes ordinary moments feel different."
+        >
+            <span class="card-number">01</span>
+            <span class="card-main">You matter.</span>
+            <span class="card-arrow">↗</span>
+        </button>
+
+
+        <button
+            class="thing-card"
+            data-message="You don't have to have everything figured out. Take your time. Grow at your own pace."
+        >
+            <span class="card-number">02</span>
+            <span class="card-main">Take your time.</span>
+            <span class="card-arrow">↗</span>
+        </button>
+
+
+        <button
+            class="thing-card"
+            data-message="There are people genuinely proud of you, even when you don't notice it. I'm one of them."
+        >
+            <span class="card-number">03</span>
+            <span class="card-main">I'm proud of you.</span>
+            <span class="card-arrow">↗</span>
+        </button>
+
+
+        <button
+            class="thing-card"
+            data-message="Whatever happens next, don't stop believing that you can build a life you're proud of."
+        >
+            <span class="card-number">04</span>
+            <span class="card-main">Keep going.</span>
+            <span class="card-arrow">↗</span>
+        </button>
+
+    </div>
+
+
+    <button class="page-button next" data-next>
+        ONE MORE MEMORY <span>→</span>
+    </button>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 7 — QUIET MEMORY
+========================================================= -->
+
+<section class="page page-7">
+
+    <div class="quiet-photo">
+
+        <img
+            src="images/together-02.jpeg"
+            alt="A memory together"
+        >
+
+    </div>
+
+    <div class="quiet-overlay"></div>
+
+    <div class="quiet-content">
+
+        <div class="mini-label light">
+            CHAPTER 05
+        </div>
+
+        <h2>
+            Some memories
+            <br>
+            don't need
+            <em>words.</em>
+        </h2>
+
+        <p>
+            Just remember the laughter.
+            <br>
+            The random conversations.
+            <br>
+            The little moments between everything else.
+        </p>
+
+        <button
+            class="glass-button"
+            data-next
+        >
+            CONTINUE <span>→</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 8 — FUTURE
+========================================================= -->
+
+<section class="page page-8">
+
+    <div class="chapter-label">
+        CHAPTER 06
+    </div>
+
+    <div class="future-layout">
+
+        <div class="future-text">
+
+            <div class="mini-label">
+                WHAT COMES NEXT
+            </div>
+
+            <h2>
+                Here's to
+                <br>
+                <em>what comes next.</em>
+            </h2>
+
+            <p>
+                New places.
+                New people.
+                New dreams.
+                New versions of yourself.
+            </p>
+
+            <p class="muted">
+                You don't need to know exactly where
+                you're going. Just keep moving toward
+                the life you want.
+            </p>
+
+            <div class="future-list">
+
+                <span>more laughter</span>
+                <span>more adventures</span>
+                <span>more confidence</span>
+                <span>more beautiful memories</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="future-photo">
+
+            <div class="future-photo-frame">
+
+                <img
+                    src="images/sister-03.jpeg"
+                    alt="Shirisha"
+                >
+
+            </div>
+
+            <span>
+                KEEP BECOMING ✦
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <button class="page-button next" data-next>
+        ONE LAST THING <span>→</span>
+    </button>
+
+</section>
+
+
+
+<!-- =========================================================
+     PAGE 9 — FINAL GIFT
+========================================================= -->
+
+<section class="page page-9">
+
+    <div class="final-stars"></div>
+
+    <div class="final-content">
+
+        <div class="mini-label light">
+            THE FINAL SURPRISE
+        </div>
+
+        <h2>
+            One last little
+            <br>
+            <em>thing.</em>
+        </h2>
+
+        <p>
+            You made it this far.
+            <br>
+            Now open your gift.
+        </p>
+
+
+        <button
+            class="gift"
+            id="gift"
+            aria-label="Open gift"
+        >
+
+            <div class="gift-lid">
+                <div class="gift-ribbon"></div>
+            </div>
+
+            <div class="gift-box-body">
+                <div class="gift-ribbon"></div>
+            </div>
+
+            <div class="gift-spark spark-1">✦</div>
+            <div class="gift-spark spark-2">✧</div>
+            <div class="gift-spark spark-3">✦</div>
+
+        </button>
+
+        <p class="gift-hint">
+            TAP TO OPEN
+        </p>
+
+    </div>
+
+
+    <!-- FINAL REVEAL -->
+
+    <div
+        class="final-reveal"
+        id="finalReveal"
+    >
+
+        <div class="final-glow"></div>
+
+        <div class="final-photo">
+
+            <img
+                src="images/sister-03.jpeg"
+                alt="Shirisha"
+            >
+
+        </div>
+
+        <div class="final-message">
+
+            <div class="mini-label light">
+                HAPPY BIRTHDAY
+            </div>
+
+            <h2>
+                Akka
+                <span>♡</span>
+            </h2>
+
+            <div class="gold-divider">
+                <span></span>
+                <b>✦</b>
+                <span></span>
+            </div>
+
+            <p>
+                May this year give you beautiful
+                memories, unexpected happiness,
+                and plenty of reasons to smile.
+            </p>
+
+            <strong>
+                With love, Ajay
+            </strong>
+
+            <button
+                class="restart-button"
+                id="restartButton"
+            >
+                ↻ Replay
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<div class="navigation">
+
+    <button
+        class="nav-button back"
+        id="backButton"
+        disabled
+    >
+        ←
+        <span>BACK</span>
+    </button>
+
+
+    <div class="nav-dots" id="navDots">
+
+        <button class="dot active"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+
+    </div>
+
+
+    <button
+        class="nav-button forward"
+        id="nextButton"
+    >
+        <span>NEXT</span>
+        →
+    </button>
+
+</div>
+
+
+
+<!-- =========================================================
+     CARD MODAL
+========================================================= -->
+
+<div
+    class="message-modal"
+    id="messageModal"
+>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+        >
+            ×
+        </button>
+
+        <div class="modal-symbol">
+            ♡
+        </div>
+
+        <div class="modal-label">
+            JUST REMEMBER
+        </div>
+
+        <p id="modalText"></p>
+
+    </div>
+
+</div>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
